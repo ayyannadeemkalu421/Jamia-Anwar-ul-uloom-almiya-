@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>طالب علم رزلٹ | جامعہ انوار العلوم</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://www.gstatic.com/GitHubjs/9.23.0/GitHub-app-compat.js"></script>
+<script src="https://www.gstatic.com/githubjs/9.23.0/GitHub-compat.js"></script>
+<script src="githubConfig.js"></script>
+<script src="script.js"></script>
+</head>
+<body>
+
+<div class="container">
+<h2>اپنا رزلٹ دیکھیں</h2>
+
+<input type="text" id="rollInput" placeholder="اپنا رول نمبر درج کریں">
+<button onclick="getResult()">نتیجہ دیکھیں</button>
+
+<table id="studentResultTable" style="display:none;">
+<tr>
+<th>کلاس</th>
+<th>رول نمبر</th>
+<th>نام</th>
+<th>والد کا نام</th>
+<th>حدیث</th>
+<th>فقہ</th>
+<th>تفسیر</th>
+<th>عقائد</th>
+<th>عربی</th>
+<th>نحو</th>
+<th>کل نمبر</th>
+<th>درجہ</th>
+<th>نتیجہ</th>
+</tr>
+<tr id="resultRow">
+<td colspan="13">Loading...</td>
+</tr>
+</table>
+
+</div>
+
+</body>
+</html>
