@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>Admin Panel | جامعہ انوار العلوم</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+<script src="firebaseConfig.js"></script>
+<script src="script.js"></script>
+</head>
+<body>
+
+<div class="container">
+<h2>Admin Panel - Result Add/Edit</h2>
+
+<table id="resultTable">
+<tr>
+<th>کلاس</th>
+<th>رول نمبر</th>
+<th>نام</th>
+<th>والد کا نام</th>
+<th>حدیث</th>
+<th>فقہ</th>
+<th>تفسیر</th>
+<th>عقائد</th>
+<th>عربی</th>
+<th>نحو</th>
+<th>کل نمبر</th>
+<th>درجہ</th>
+<th>نتیجہ</th>
+<th>Action</th>
+</tr>
+</table>
+
+<button onclick="addAdminRow()">نیا طالب علم شامل کریں</button>
+<button onclick="saveResults()">Save All</button>
+
+</div>
+
+</body>
+</html>
